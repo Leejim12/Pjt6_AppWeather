@@ -1,4 +1,5 @@
 import WeatherDay from "./WeatherDay";
+import'./Weather.css';
 import {useState} from 'react';
 
 function WeatherMain(){
