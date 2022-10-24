@@ -11,7 +11,8 @@ function WeatherMain(){
   }
   return(
     <>
-      <h1 className="Title">날씨예보</h1>
+      <h1 className="Title">날씨예보-중기예보</h1>
+      <button className="homebtu"> 홈으로 </button>
       <div className="buttonBox">
       <form className="btf">
         <button className="btn" onClick={(e) => {e.preventDefault();handleClick(3);}}>3일후 날씨</button>
@@ -20,7 +21,8 @@ function WeatherMain(){
         <button className="btn" onClick={(e) => {e.preventDefault();handleClick(6);}}>6일후 날씨</button>
       </form>
       </div>
-      <WeatherDay d={day}/>
+      <WeatherDay d={day}/> 
+      {/* d를 받아낼 수 있게 해줌 */}
     </>
   );
 }

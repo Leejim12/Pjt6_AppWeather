@@ -1,7 +1,73 @@
+.box{
+  text-align: center;
+  position: relative;
+  border: 2px; 
+  align-items: c;
+  margin : auto;
+  justify-content: center;
+}
+.factor{
 
+  border-radius: 5px;
+  background-color: rgb(234, 220, 247);
+  color: rgb(214, 90, 90);
+  margin: 2px;
+  font-weight: bolder;
+  padding: 5px;
+  display:block; 
+  justify-content: left;
+  width: 35%;
+}
+
+.data{
+  width : 85%;
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: right;
+  padding: auto;
+  margin-left: 270px;
+  margin-bottom: 200px;
+}
+
+.box{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 10vw 5px 10vw; 
+  width: 80vw; 
+  height: 5vh; 
+}
+
+.dN { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 20vw; 
+  height: inherit; 
+  background-color: #7CB6B1; 
+  color: #1f0303; 
+  border-radius: 10px; 
+  margin: 3px; 
+  font-weight:bolder; 
+  } 
+
+  .Num { 
+  display: flex; 
+  justify-content: center;
+  align-items : center;
+  width: 20vw; 
+  height: inherit; 
+  background-color: #D3E6E4; 
+  border-radius: 10px; 
+  margin: 3px 
+  }
+
+  
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 
@@ -36,11 +102,15 @@ ul{
 
 h1{
   text-align: center;
-  font-size: x-large;
+  font-size:xx-large;
   font-weight: bolder;
-  background-color: darksalmon;
-  height: 40px;
+  background-color: rgb(166, 177, 15);
+  height: 50px;
+  color: azure;
   font-display:inherit ;
+  margin-top: auto;
+  top: 50%;
+  bottom: 50%;
 }
 
 .box{
@@ -51,38 +121,52 @@ h1{
   margin : auto;
   justify-content: center;
 }
-ul{
+
+
+li {
+  list-style: none;
+  width : 400px;
+  border: 2px solid rgb(249, 155, 155);
+  background-color: azure;
+  border-radius: 5px;
+  margin: auto;
+  display:ruby;
+  text-align: center;
+  font-size: large;
+
 }
+
 .box{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    margin: 0 10vw 5px 10vw; 
-    width: 80vw; 
-    height: 5vh; 
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  margin: auto; 
+  width: 80vw; 
+  height: 5vh; 
  
 }
 
 .dN { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 20vw; 
-    height: inherit; 
-    background-color: #7CB6B1; 
-    color: #000000; 
-    border-radius: 10px; 
-    margin: 3px; 
-    font-weight: bold; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 20vw; 
+  height: inherit; 
+  background-color: #e8f5cb; 
+  color: #000000; 
+  border-radius: 10px; 
+  margin: 3px; 
+  font-weight: bold; 
   } 
    
   .Num { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 20vw; 
-    height: inherit; 
-    background-color: #D3E6E4; 
-    border-radius: 10px; 
-    margin: 3px 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 20vw; 
+  height: inherit; 
+  background-color: #31736d; 
+  border-radius: 10px; 
+  margin: 3px 
   }
+

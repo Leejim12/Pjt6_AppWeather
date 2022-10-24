@@ -2,10 +2,10 @@ import WeatherData from '../DB/weather.json';
 
 
 export default function WeatherDay(probs){
-
   const d = probs.d;
 
   const WItem = WeatherData.response.body.items.item;
+  // 1개짜리 배열이라, 0인덱스 준거임 
   const items = [];
   const keys = [`rnst${d}am`,`rnst${d}pm`,`wf${d}am`,`wf${d}pm`];
 
@@ -22,10 +22,10 @@ export default function WeatherDay(probs){
     <>
   <h2>{}</h2>
     <ul>
-      <div className='box'> <span className='dN'>{d}일후</span> <span className='tit'>오전 강수량</span><span className='Num'>{d2}</span></div> 
-      <div className='box'> <span className='dN'>{d}일후</span> <span className='tit'>오후 강수량</span><span className='Num'>{d3}</span></div> 
-      <div className='box'> <span className='dN'>{d}일후</span> <span className='tit'>오전 날씨예보</span><span className='Num'>{d4}</span></div>
-      <div className='box'><span className='dN'>{d}일후</span> <span className='tit'>오후 날씨예보</span><span className='Num'>{d5}</span></div>
+      <li><p><span className='dN'><i><b>{d}</b></i>일후</span></p> <p><span className='tit'>오전 강수량</span></p><p><span className='Num'><b>{d2}%</b></span></p></li> 
+      <li><p><span className='dN'><i><b>{d}</b></i>일후</span></p> <p><span className='tit'>오후 강수량</span></p><p><span className='Num'><b>{d3}%</b></span></p></li>
+      <li><p><span className='dN'><i><b>{d}</b></i>일후</span></p><p> <span className='tit'>오전 날씨예보</span></p><p><span className='Num'><b>{d4}</b></span></p></li>
+      <li><p><span className='dN'><i><b>{d}</b></i>일후</span></p><p><span className='tit'>오후 날씨예보</span></p><p><span className='Num'><b>{d5}</b></span></p></li>
     </ul>
 
     </>
