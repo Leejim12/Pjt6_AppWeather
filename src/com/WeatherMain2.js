@@ -59,7 +59,7 @@ export default function WeatherMain2(){
     (m[1].category === 'PTY' ? 
         (<li key = {m[1].category}>
             <span className='factor'>{item[m[1].category][0]}</span>
-            <span className='data'>{m[1].obsrValue}{pty[m[1].obsrValue]}</span>
+            <span className='data'>{pty[m[1].obsrValue]}</span>
         </li>)
     :(m[1].category === 'SKY' ? 
         (<li key = {m[1].category}>

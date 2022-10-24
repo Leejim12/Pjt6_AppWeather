@@ -5,7 +5,9 @@ import WeatherMain2 from './com/WeatherMain2';
 function App() {
   return (
     <>
-      <WeatherMain2 />
+      <div className='World'>
+        <WeatherMain2 />
+      </div>
     </>
   );
 }

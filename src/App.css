@@ -1,3 +1,7 @@
+.World{
+  width: 500px;
+}
+
 .box{
   text-align: center;
   position: relative;
