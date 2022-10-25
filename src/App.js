@@ -14,7 +14,7 @@ import Home from './com/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <div className='World'>
       {/* Nav : 공통적으로 쓰는 부분 */}
 
@@ -26,7 +26,7 @@ function App() {
         <Route path = "/p2" element = {<WeatherMain2 />} />
       </Routes>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 
