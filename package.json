@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://leejim12.github.io/pjt6_Weather/",
+  "homepage": "https://leejim12.github.io/Pjt6_AppWeather/",
   "eslintConfig": {
     "extends": [
       "react-app",
