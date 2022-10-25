@@ -14,21 +14,19 @@ import Home from './com/Home';
 
 function App() {
   return (
-    <nav>
+    <>
       <div className='World'>
       {/* Nav : 공통적으로 쓰는 부분 */}
 
-      <Nav />
+
       {/* 라우팅 등록정보 */}
-      
       <Routes> 
-        <Route path = "./" element = {<Home />} />
-        <Route path = "./p1/:item" element = {<WeatherMain />} />
-        <Route path = "./p2" element = {<WeatherMain2 />} />
+        <Route path = "/" element = {<Home />} />
+        <Route path = "/p1/:item" element = {<WeatherMain />} />
+        <Route path = "/p2" element = {<WeatherMain2 />} />
       </Routes>
       </div>
-      
-      </nav>
+    </>
   );
 }
 
