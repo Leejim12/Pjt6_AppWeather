@@ -1,5 +1,7 @@
 .World{
-  width: 500px;
+  width: 700px;
+  background-color: #c6f3ef;
+  border: #000000;
 }
 
 .box{
@@ -14,12 +16,11 @@
 
   border-radius: 5px;
   background-color: rgb(234, 220, 247);
-  color: rgb(214, 90, 90);
+  color: rgb(33, 125, 229);
   margin: 2px;
   font-weight: bolder;
   padding: 5px;
   display:block; 
-  justify-content: left;
   width: 35%;
 }
 
@@ -66,34 +67,72 @@
   border-radius: 10px; 
   margin: 3px 
   }
+.spcul{
+  display: flex;
+  color: whitesmoke;
+}
 
-  
+.nl{
+background-color: black;
+}
+
+.hbtu{
+display: inline-block;
+float: left;
+background-color: #bdf2f9;
+font-weight: bolder;
+border-color: rgb(205, 246, 232);
+height: 40px;
+border-radius: 15px;
+color: azure;
+}
+
+.btuDiv{
+  display: inline-block;
+}
+
+.homebtu{
+  width: 500px;
+  height: 100px;
+  font-size: xx-large;
+  background-color: #D3E6E4;
+  border-radius: 20px;
+  margin: 20px;
+  font-weight: bolder;
+  border-color: rgb(205, 246, 232);
+}
+
+
 * {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
+.cc{
+  text-align: center;
+  ;
+}
 
 .btf{
   text-align: center;
-  background-color: cornsilk;
+  background-color: rgb(205, 232, 237);
   height: 50px;
 }
 
 .btn{
-    margin-left: 25px;
-    margin-right: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
   border-radius: 5px;
   height: 50px;
   width : 100px;
-  background-color: rgb(235, 216, 169);
+  background-color: rgb(216, 254, 237);
   font-weight: bold;
+  border-color: rgb(205, 246, 232);
 }
 
 form{
-  padding: 10px;
-
+  padding: 8px;
 }
 
 .bottomBox{
@@ -102,19 +141,22 @@ form{
 
 ul{
   list-style: none;
+  height: 350px;
 }
 
 h1{
   text-align: center;
   font-size:xx-large;
   font-weight: bolder;
-  background-color: rgb(166, 177, 15);
+  ;
+  background-color: rgb(108, 163, 240);
   height: 50px;
-  color: azure;
+  color: rgb(235, 255, 255);
   font-display:inherit ;
   margin-top: auto;
   top: 50%;
   bottom: 50%;
+  text-shadow: 0px 0 #000, 0 2px #000, 3px 0 #000, 1px 0 #000;
 }
 
 .box{
@@ -130,11 +172,11 @@ h1{
 li {
   list-style: none;
   width : 400px;
-  border: 2px solid rgb(249, 155, 155);
+  border: 2px solid rgb(169, 210, 244);
   background-color: azure;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: auto;
-  display:ruby;
+  
   text-align: center;
   font-size: large;
 

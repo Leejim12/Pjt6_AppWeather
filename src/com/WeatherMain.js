@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import WeatherDay from "./WeatherDay";
 import'./Weather.css';
 import {useState} from 'react';
@@ -12,7 +13,7 @@ function WeatherMain(){
   return(
     <>
       <h1 className="Title">날씨예보-중기예보</h1>
-      <button className="homebtu"> 홈으로 </button>
+      <button className='hbtu'><Link to = "/"> Home </Link></button>
       <div className="buttonBox">
       <form className="btf">
         <button className="btn" onClick={(e) => {e.preventDefault();handleClick(3);}}>3일후 날씨</button>

@@ -1,6 +1,6 @@
 import weather2 from'../DB/weather2.json';
 import item from '../DB/item.json'
-
+import {Link} from 'react-router-dom';
 export default function WeatherMain2(){
 
   const WItem = weather2.response.body.items.item;
@@ -86,7 +86,7 @@ export default function WeatherMain2(){
   return(
     <>
       <h1 className="Title">날씨예보-단기정보</h1>
-      <button className="homebtu"> 홈으로 </button>
+      <button className='hbtu'><Link to = "/"> Home </Link></button>
       {/* <li><span className='k'>강수형태</span><span className='v'>{items[0].obsrValue}</span></li> 
       <li><span>습도</span><span>{items[1].obsrValue}%</span></li> 
       <li><span>1시간 강수량</span><span>{items[2].obsrValue}mm</span></li> 

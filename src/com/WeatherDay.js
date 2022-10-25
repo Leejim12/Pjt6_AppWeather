@@ -22,10 +22,10 @@ export default function WeatherDay(probs){
     <>
   <h2>{}</h2>
     <ul>
-      <li><p><span className='dN'><i><b>{d}</b></i>일후</span></p> <p><span className='tit'>오전 강수량</span></p><p><span className='Num'><b>{d2}%</b></span></p></li> 
-      <li><p><span className='dN'><i><b>{d}</b></i>일후</span></p> <p><span className='tit'>오후 강수량</span></p><p><span className='Num'><b>{d3}%</b></span></p></li>
-      <li><p><span className='dN'><i><b>{d}</b></i>일후</span></p><p> <span className='tit'>오전 날씨예보</span></p><p><span className='Num'><b>{d4}</b></span></p></li>
-      <li><p><span className='dN'><i><b>{d}</b></i>일후</span></p><p><span className='tit'>오후 날씨예보</span></p><p><span className='Num'><b>{d5}</b></span></p></li>
+      <li className='cc'><p><span className='dN'><i><b>{d}</b></i>일후</span></p> <p><span className='tit'>오전 강수량</span></p><p><span className='Num'><b>{d2}%</b></span></p></li> 
+      <li className='cc'><p><span className='dN'><i><b>{d}</b></i>일후</span></p> <p><span className='tit'>오후 강수량</span></p><p><span className='Num'><b>{d3}%</b></span></p></li>
+      <li className='cc'><p><span className='dN'><i><b>{d}</b></i>일후</span></p><p> <span className='tit'>오전 날씨예보</span></p><p><span className='Num'><b>{d4}</b></span></p></li>
+      <li className='cc'><p><span className='dN'><i><b>{d}</b></i>일후</span></p><p><span className='tit'>오후 날씨예보</span></p><p><span className='Num'><b>{d5}</b></span></p></li>
     </ul>
 
     </>
